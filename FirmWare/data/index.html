@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affichage des données du capteur</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Visualisation des Données du Balancier</h1>
+    
+    <div id="data">
+      <h2>Données en temps réel</h2>
+      <p><strong>Accélération X:</strong> <span id="accX">-</span> g</p>
+      <p><strong>Accélération Y:</strong> <span id="accY">-</span> g</p>
+      <p><strong>Accélération Z:</strong> <span id="accZ">-</span> g</p>
+      <p><strong>Gyroscope X:</strong> <span id="GyroX">-</span>°/s</p>
+      <p><strong>Gyroscope Y:</strong> <span id="GyroY">-</span>°/s</p>
+      <p><strong>Gyroscope Z:</strong> <span id="GyroZ">-</span>°/s</p>
+      <p><strong>Theta :</strong> <span id="Theta">-</span>°</p>
+      <p><strong>ThetaDot :</strong> <span id="ThetaDot">-</span>°/s</p>
+      <p><strong>ThetaDotDot :</strong> <span id="ThetaDotDot">-</span>°/s</p>
+      <p>Temps écoulé : <span id="chrono">0.0 s</span></p>
+
+    </div>
+
+    <div id="graph-container">
+      <canvas id="accGraph" height="300" width500=""></canvas>
+    </div>
+
+    <div class="control">
+      <button onclick="startData()">Démarrer</button>
+      <button onclick="stopData()">Arrêter</button>
+      <button onclick="resetData()">Reset</button>
+      <button id="calibrateButton">Calibrer l'accelerometre</button>
+      <button id="calibrateButton2">Calibrer le Gyroscope</button>
+      <button onclick="downloadData()">Télécharger les données</button>
+    </div>
+    <div>
+      <h2>Paramètres physiques</h2>
+      <input id="m" placeholder="Masse (kg)" type="number" step="0.001"><br>
+      <input id="g" placeholder="Gravité (m/s²)" type="number" step="0.01" value="9.81"><br>
+      <input id="D" placeholder="Demi-distance D (m)" type="number" step="0.001"><br>
+      <input id="h" placeholder="Hauteur h (m)" type="number" step="0.01"><br>
+      <input id="fs" placeholder="Fréquence fs (Hz)" type="number" step="1"><br>
+      <button onclick="sendUserParams()">Envoyer les paramètres</button>
+
+    </div>
+
+  </div>
+
+  <script src="/script.js"></script>
+
+
+</body></html>
