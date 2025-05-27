@@ -23,11 +23,11 @@ Le système :
 
 ---
 
-## 🧪 Guide d'utilisation sur le terrain
+## Guide d'utilisation sur le terrain
 
 Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet réel :
 
-### 🔩 Installation physique
+### Installation physique
 
 1. **Fixer l’ESP32** (et son capteur inertiel) solidement sur l’objet dont vous souhaitez mesurer le moment d'inertie.
 
@@ -35,7 +35,7 @@ Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet 
 
 ---
 
-### 📶 Connexion et interface
+### Connexion et interface
 
 3. **Se connecter au Wi-Fi** de l’ESP32 (point d’accès créé automatiquement).
 
@@ -43,7 +43,7 @@ Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet 
 
 ---
 
-### ⚙️ Mesure du moment d'inertie
+### Mesure du moment d'inertie
 
 5. **Calibrer le gyroscope** en cliquant sur le bouton **"Calibrer le gyroscope"**.
 
@@ -55,7 +55,7 @@ Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet 
 
 ---
 
-### 📥 Analyse des données
+### Analyse des données
 
 9. **Remplir les champs physiques** dans l’interface (masse, distance, etc.).
 
@@ -63,7 +63,7 @@ Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet 
 
 ---
 
-### 🧠 Post-traitement avec Python
+### Post-traitement avec Python
 
 11. Lancer le script Python d’analyse :
 
