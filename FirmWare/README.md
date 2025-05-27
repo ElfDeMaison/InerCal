@@ -8,14 +8,17 @@
 ## Installation
 
 # Cloner le dépôt
-`git clone https://github.com/votre-utilisateur/InerCal.git`
-`cd InerCal`
+```bash
+git clone https://github.com/votre-utilisateur/InerCal.git
+cd InerCal
+```
 
 # Créer un environnement virtuel Python
--`python3 -m venv env`
--`source env/bin/activate  # Sous Windows : env\Scripts\activate`
--`pip install -r requirements.txt`
-  
+```bash
+python3 -m venv env
+source env/bin/activate  # Sous Windows : env\Scripts\activate
+pip install -r requirements.txt
+```  
 ## Upload websever data
 
 Run this command to upload the webserver data (html, JS, CSS...) to the ESP32:
