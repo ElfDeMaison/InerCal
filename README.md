@@ -23,13 +23,13 @@ Le système :
 
 ---
 
-## Guide d'utilisation sur le terrain
+## Guide d'utilisation 
 
 Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet réel :
 
 ### Installation physique
 
-1. **Fixer l’ESP32** (et son capteur inertiel) solidement sur l’objet dont vous souhaitez mesurer le moment d'inertie.
+1. **Fixer l’InerCal** solidement sur l’objet dont vous souhaitez mesurer le moment d'inertie.
 
 2. **Allumer l’ESP32** (via USB ou batterie).
 
@@ -49,7 +49,7 @@ Voici les étapes à suivre pour utiliser le système **InerCal** avec un objet 
 
 6. Cliquer sur **"Démarrer"** pour lancer la capture des données.
 
-7. **Faire osciller l’objet** autour de son axe de rotation (comme un pendule).
+7. **Faire osciller l’objet** autour de son axe de rotation.
 
 8. Une fois les oscillations terminées, cliquer sur **"Arrêter"**.
 
